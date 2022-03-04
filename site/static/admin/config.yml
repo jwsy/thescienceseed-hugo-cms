@@ -1,5 +1,7 @@
 backend:
   name: git-gateway
+  # ref for specifying branch: https://github.com/netlify/netlify-cms/issues/6172#issuecomment-1026679449
+  branch: main
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
